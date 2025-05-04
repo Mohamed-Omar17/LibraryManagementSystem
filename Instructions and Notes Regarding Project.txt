@@ -1,0 +1,21 @@
+1. CD into the src file in the project folder (eg in cmd: cd installation-path/DataStructuresFinalProject_Group12_CRN_75324\LibraryManagementSystem_Group12\src)
+
+2. use command line to compile Main class
+command --> javac Main.java
+
+3. use command line to run Main class
+command --> java Main.java
+
+*NOTE*
+There will be a lot of output lines before ability for input. These are just to make sure the Nodes in the AVL tree are balanced, along with the insertion time of each node/book.
+
+4. Four options will be available: type the number and then press enter to select the option
+*Options and what they do
+
+1. Lets you search for a book, and borrow if you don't have it, return it if you do, or inform you that it doesn't exist
+2. Outputs user borrowed books
+3. Shows available books
+4. Exits the library
+
+*NOTE*
+The first 2 node insertions will have exception insertion times to allocate memory for the tree creation, and the first 2 searches will take longer than expected, as the tree will be elevating in the CPU hierarchy
